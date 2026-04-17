@@ -1,0 +1,76 @@
+body{
+ background-color:rgb(112, 4, 4);
+ background-attachment: fixed;
+}
+.titre{
+    background-color:rgb(94, 132, 0);
+    background-size:100%;
+    font-size:80px;
+    font-weight:normal;
+    text-align:center;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.menu{
+    display: flex;              /* puts items in a row */
+    justify-content: center;    /* center them */
+    gap: 5%;                  /* space between items */
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.menu a{
+    color: white;
+    text-rendering: italic;
+    font-weight: bold;
+    
+}
+.Manga video{
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.Manga audio{
+    display: block;
+    margin: 10px auto;
+
+}
+.Manga{
+    padding: 20px;
+    margin: 3% auto;
+    width: 70%;
+    background-color:white;
+    box-shadow: 0px 0px 50px rgb(183, 255, 58);
+    border-radius: 10px;
+}
+table{
+    width: 60%;
+    margin: 4% auto;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border:1px solid white;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid gray;
+}
+.Manga img{
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+.Manga h2{
+    font-size: 170%;
+    text-align: center; 
+}
+.Manga p{
+    font-size: 100%;
+}
