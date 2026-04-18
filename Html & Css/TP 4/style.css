@@ -30,6 +30,7 @@ body{
     display: block;
     margin: 10px auto;
     border-radius: 10px;
+    width:370px;
 }
 .Manga audio{
     display: block;
@@ -41,7 +42,7 @@ body{
     margin: 3% auto;
     width: 70%;
     background-color:white;
-    box-shadow: 0px 0px 50px rgb(183, 255, 58);
+    box-shadow: 0px 0px 50px rgb(48, 245, 71);
     border-radius: 10px;
 }
 table{
@@ -51,7 +52,7 @@ table{
 }
 
 th{
-    background-color: blue;
+    background-color: rgb(70, 70, 253);
     color: white;
     padding: 10px;
     border:1px solid white;
