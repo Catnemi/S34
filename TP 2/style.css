@@ -1,0 +1,36 @@
+.body{
+    background-size:100px;
+    background-color:rgb(133, 88, 88);
+    font-size:90px;
+}
+.Image{
+    width:300px;
+    height:200px;
+    border-radius:3px;
+    box-shadow:0px 0px 50px rgb(rgb(255, 0, 0));
+}
+.Intro{
+    font-size:24px;
+    font-weight:bold;   
+    text-align:justify;
+   
+}
+.h4{
+    text-align:left;
+    padding:2px;
+    margin:4px;
+}
+.titre{
+    font-weight:bold;
+    text-align:left;
+    font-size:27px;
+}
+.M1 h3{
+    text-align:left;
+}
+.M1 img{
+    width:300px;
+    height:200px;
+    border-radius:3px;
+    box-shadow:0px 0px 50px rgb(rgb(255, 0, 0));
+}
