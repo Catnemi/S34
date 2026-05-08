@@ -56,9 +56,9 @@ int maximum(int* T, int n) {
         return M;
 }
 int main() {
+    
     int T[] = {3, 8, 2, 7, 5};
     int n = 5;
-    int max;
 
     printf("Tableau avant inversion : ");
     afficher(T, n);
@@ -68,8 +68,8 @@ int main() {
     printf("\nTableau apres inversion : ");
     afficher(T, n);
 
-    max = maximum(T, n);
-    printf("\nMaximum du tableau : %d\n", max);
+    
+    printf("\nMaximum du tableau : %d\n", maximum(T, n));
 
     // Test puissance
     printf("\nPuissance(2, 3) = %.2f\n", puissance(2, 3));
